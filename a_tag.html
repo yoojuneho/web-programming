@@ -1,0 +1,30 @@
+<!--
+    우리가 웹 페이지에서 링크를 연결할 때 사용하는 태그가 a 태그입니다.
+    <a> anchor 링크
+    내부링크 방법과 외부링크 방법이 있습니다.
+    한번이라도 방문하면 보라색, 한번도 방문하지 않으면 파란색입니다.
+    내부링크는 보통 목차에 많이 사용됩니다.
+-->
+<!DOCTYPE html>
+<html lang="ko"> 
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="0.1">
+        <title>a 태그(링크)</title> 
+    </head>
+    <body> 
+        <a href="#one">one로 이동</a>
+        <a href="#two">two로 이동</a>
+        <a href="#three">three로 이동</a>
+        <a href="https://www.google.com" target="_blank">구글로 이동</a> 
+        <!--
+            외부링크기본방식은 현재 보고있는 페이지에서 바로 이동하기 때문에 불편할 수 있습니다.
+            target="_blank" -> 이 속성은 새탭에서 외부링크가 연결됩니다.
+        -->
+
+        <p id="one" style="margin-top: 1500px;">one</p>
+        <p id="two" style="margin-top: 1500px;">two</p>
+        <p id="three" style="margin-top: 1500px;">three</p>
+        <p style="margin-top:2000px"></p>
+    </body>
+</html>
