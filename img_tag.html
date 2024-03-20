@@ -1,0 +1,27 @@
+<!--
+    <img> html문서에 이미지를 삽입할 때 사용하는 태그
+    삽입하려는 위치에 따라서 내부 리소스 이미지 방법과 외부 리소스 이미지 방법이 있습니다.
+-->
+<!DOCTYPE html>
+<html lang="ko">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width", initial-scale="0.1">
+        <title>img 태그(이미지)</title> 
+    </head>
+    <body>
+        <img src="images/icons8-python-96.png" alt="파이썬" width="100">
+        <!--
+            <내부 리소스 이미지 사용방법>
+            alt속성은 이미지가 꺠질때 대체 텍스트가 나오게 합니다.
+            img 태그는 src와 alt 속성이 필수입니다!
+            width속성은 가로 픽셀을 원하는 숫자로 맞춰줍니다. 또한 세로픽셀은 가로길이에 맞게 비율 조정해줍니다.
+            height속성도 width속성과 비슷합니다.
+            width와 heigh를 같이 쓰게되면 이미지의 원래 비율이 손상될 수 있습니다.
+        -->
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png">
+        <a href="https://google.com" target="_blank"> <!--이미지 링크생성-->
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png">
+        </a>
+    </body>
+</html>
